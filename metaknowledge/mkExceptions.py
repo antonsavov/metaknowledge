@@ -85,3 +85,6 @@ class GrantCollectionException(mkException):
 
 class UnknownFile(mkException):
     pass
+
+class BadCumincadFile(mkException):
+    pass
